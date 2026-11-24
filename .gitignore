@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais (Virtual environments)
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Configuracoes de IDE e editores
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Arquivos temporarios e logs do sistema
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos temporarios de solvers (CBC, CPLEX, GLPK)
+*.mps
+*.lp
+*.sol
+cbc.exe
+*.log
